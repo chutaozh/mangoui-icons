@@ -3,7 +3,7 @@ import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
 const SdiAccountSquareOutlined: React.FC<BaseIconProps> = (props) => {
-    const classes = cn('sdi-account-square', { [props.className || '']: !!props.className });
+    const classes = cn('sdi-account-square', props.className);
 
     return (
         <IconWrapper {...props} className={classes}>

@@ -15,7 +15,7 @@ export const SVGProps: React.SVGAttributes<SVGSVGElement> = {
 };
 
 const IconWrapperProps: React.FC<IconWrapperProps> = (props) => {
-    const classes = cn('sdi', { [props.className || '']: !!props.className });
+    const classes = cn('sdi', props.className);
 
     return (
         <span role="img" {...props} className={classes} />

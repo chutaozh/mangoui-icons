@@ -3,7 +3,7 @@ import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
 const SdiHorizontalAlignCenterOutlined: React.FC<BaseIconProps> = (props) => {
-    const classes = cn('sdi-horizontal-align-center', { [props.className || '']: !!props.className });
+    const classes = cn('sdi-horizontal-align-center', props.className);
 
     return (
         <IconWrapper {...props} className={classes}>

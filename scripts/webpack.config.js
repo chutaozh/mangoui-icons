@@ -26,7 +26,7 @@ module.exports = {
     hot: true, // 热更新
     open: true, // 编译完自动打开浏览器
     compress: false, // 关闭gzip压缩
-    port: 3000, // 开启端口号
+    port: 3001, // 开启端口号
     historyApiFallback: true, // 支持 history 路由重定向到 index.html 文件
   },
   module: {

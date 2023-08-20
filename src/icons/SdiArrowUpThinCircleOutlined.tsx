@@ -3,7 +3,7 @@ import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
 const SdiArrowUpThinCircleOutlined: React.FC<BaseIconProps> = (props) => {
-    const classes = cn('sdi-arrow-up-thin-circle', { [props.className || '']: !!props.className });
+    const classes = cn('sdi-arrow-up-thin-circle', props.className);
 
     return (
         <IconWrapper {...props} className={classes}>
