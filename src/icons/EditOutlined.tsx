@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiEditOutlined: React.FC<BaseIconProps> = (props) => {
+const EditOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-edit', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiEditOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiEditOutlined;
+export default EditOutlined;

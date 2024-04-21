@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiMagnifyMinusFilled: React.FC<BaseIconProps> = (props) => {
+const MagnifyMinusFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-magnify-minus', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiMagnifyMinusFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiMagnifyMinusFilled;
+export default MagnifyMinusFilled;

@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiDotsVerticalCircleOutlined: React.FC<BaseIconProps> = (props) => {
+const DotsVerticalCircleOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-dots-vertical-circle', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiDotsVerticalCircleOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiDotsVerticalCircleOutlined;
+export default DotsVerticalCircleOutlined;

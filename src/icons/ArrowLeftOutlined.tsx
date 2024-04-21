@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiArrowLeftOutlined: React.FC<BaseIconProps> = (props) => {
+const ArrowLeftOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-arrow-left', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiArrowLeftOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiArrowLeftOutlined;
+export default ArrowLeftOutlined;

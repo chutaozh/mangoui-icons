@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiRefreshOutlined: React.FC<BaseIconProps> = (props) => {
+const RefreshOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-refresh', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiRefreshOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiRefreshOutlined;
+export default RefreshOutlined;

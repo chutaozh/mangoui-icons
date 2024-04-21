@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiFolderOutlined: React.FC<BaseIconProps> = (props) => {
+const FolderOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-folder', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiFolderOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiFolderOutlined;
+export default FolderOutlined;

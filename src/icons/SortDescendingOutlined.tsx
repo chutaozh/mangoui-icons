@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiSortDescendingOutlined: React.FC<BaseIconProps> = (props) => {
+const SortDescendingOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-sort-descending', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiSortDescendingOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiSortDescendingOutlined;
+export default SortDescendingOutlined;

@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCopyOutlined: React.FC<BaseIconProps> = (props) => {
+const CopyOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-copy', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCopyOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCopyOutlined;
+export default CopyOutlined;

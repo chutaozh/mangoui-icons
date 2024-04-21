@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiLockOutlined: React.FC<BaseIconProps> = (props) => {
+const LockOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-lock', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiLockOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiLockOutlined;
+export default LockOutlined;

@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiPlusSquareFilled: React.FC<BaseIconProps> = (props) => {
+const PlusSquareFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-plus-square', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiPlusSquareFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiPlusSquareFilled;
+export default PlusSquareFilled;

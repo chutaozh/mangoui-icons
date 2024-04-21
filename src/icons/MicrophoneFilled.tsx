@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiMicrophoneFilled: React.FC<BaseIconProps> = (props) => {
+const MicrophoneFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-microphone', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiMicrophoneFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiMicrophoneFilled;
+export default MicrophoneFilled;

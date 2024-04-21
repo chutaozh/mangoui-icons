@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCaretRightOutlined: React.FC<BaseIconProps> = (props) => {
+const CaretRightOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-caret-right', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCaretRightOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCaretRightOutlined;
+export default CaretRightOutlined;

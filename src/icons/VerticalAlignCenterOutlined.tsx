@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiVerticalAlignCenterOutlined: React.FC<BaseIconProps> = (props) => {
+const VerticalAlignCenterOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-vertical-align-center', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiVerticalAlignCenterOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiVerticalAlignCenterOutlined;
+export default VerticalAlignCenterOutlined;

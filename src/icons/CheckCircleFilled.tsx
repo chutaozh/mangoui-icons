@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCheckCircleFilled: React.FC<BaseIconProps> = (props) => {
+const CheckCircleFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-check-circle', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCheckCircleFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCheckCircleFilled;
+export default CheckCircleFilled;

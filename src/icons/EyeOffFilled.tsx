@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiEyeOffFilled: React.FC<BaseIconProps> = (props) => {
+const EyeOffFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-eye-off', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiEyeOffFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiEyeOffFilled;
+export default EyeOffFilled;

@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCloseCircleOutlined: React.FC<BaseIconProps> = (props) => {
+const CloseCircleOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-close-circle', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCloseCircleOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCloseCircleOutlined;
+export default CloseCircleOutlined;

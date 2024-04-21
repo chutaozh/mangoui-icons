@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiSwapVerticalOutlined: React.FC<BaseIconProps> = (props) => {
+const SwapVerticalOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-swap-vertical', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiSwapVerticalOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiSwapVerticalOutlined;
+export default SwapVerticalOutlined;

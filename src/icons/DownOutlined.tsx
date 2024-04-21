@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiDownOutlined: React.FC<BaseIconProps> = (props) => {
+const DownOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-down', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiDownOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiDownOutlined;
+export default DownOutlined;

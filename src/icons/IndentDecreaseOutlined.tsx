@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiIndentDecreaseOutlined: React.FC<BaseIconProps> = (props) => {
+const IndentDecreaseOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-indent-decrease', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiIndentDecreaseOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiIndentDecreaseOutlined;
+export default IndentDecreaseOutlined;

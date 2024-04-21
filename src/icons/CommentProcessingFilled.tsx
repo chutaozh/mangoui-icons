@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCommentProcessingFilled: React.FC<BaseIconProps> = (props) => {
+const CommentProcessingFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-comment-processing', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCommentProcessingFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCommentProcessingFilled;
+export default CommentProcessingFilled;
