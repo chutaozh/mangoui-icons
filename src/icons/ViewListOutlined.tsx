@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiViewListOutlined: React.FC<BaseIconProps> = (props) => {
+const ViewListOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-view-list', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiViewListOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiViewListOutlined;
+export default ViewListOutlined;

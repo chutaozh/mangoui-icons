@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiSyncOutlined: React.FC<BaseIconProps> = (props) => {
+const SyncOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-sync', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiSyncOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiSyncOutlined;
+export default SyncOutlined;

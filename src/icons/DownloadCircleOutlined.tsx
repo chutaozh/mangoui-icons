@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiDownloadCircleOutlined: React.FC<BaseIconProps> = (props) => {
+const DownloadCircleOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-download-circle', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiDownloadCircleOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiDownloadCircleOutlined;
+export default DownloadCircleOutlined;

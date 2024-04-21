@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiWarningFilled: React.FC<BaseIconProps> = (props) => {
+const WarningFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-warning', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiWarningFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiWarningFilled;
+export default WarningFilled;

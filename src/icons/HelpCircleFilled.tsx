@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiHelpCircleFilled: React.FC<BaseIconProps> = (props) => {
+const HelpCircleFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-help-circle', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiHelpCircleFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiHelpCircleFilled;
+export default HelpCircleFilled;

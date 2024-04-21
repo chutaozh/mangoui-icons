@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiStarFilled: React.FC<BaseIconProps> = (props) => {
+const StarFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-star', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiStarFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiStarFilled;
+export default StarFilled;

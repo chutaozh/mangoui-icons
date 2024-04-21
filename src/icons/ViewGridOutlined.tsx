@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiViewGridOutlined: React.FC<BaseIconProps> = (props) => {
+const ViewGridOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-view-grid', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiViewGridOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiViewGridOutlined;
+export default ViewGridOutlined;

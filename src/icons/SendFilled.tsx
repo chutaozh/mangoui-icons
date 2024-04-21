@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiSendFilled: React.FC<BaseIconProps> = (props) => {
+const SendFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-send', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiSendFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiSendFilled;
+export default SendFilled;

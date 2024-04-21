@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiDeleteFilled: React.FC<BaseIconProps> = (props) => {
+const DeleteFilled: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-delete', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiDeleteFilled: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiDeleteFilled;
+export default DeleteFilled;

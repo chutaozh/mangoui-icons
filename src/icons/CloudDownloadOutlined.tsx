@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCloudDownloadOutlined: React.FC<BaseIconProps> = (props) => {
+const CloudDownloadOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-cloud-download', props.className);
 
     return (
@@ -15,4 +15,4 @@ const SdiCloudDownloadOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCloudDownloadOutlined;
+export default CloudDownloadOutlined;

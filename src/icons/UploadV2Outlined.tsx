@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiUploadV2Outlined: React.FC<BaseIconProps> = (props) => {
+const UploadV2Outlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-upload-v2', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiUploadV2Outlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiUploadV2Outlined;
+export default UploadV2Outlined;

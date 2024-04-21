@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiEditSquareOutlined: React.FC<BaseIconProps> = (props) => {
+const EditSquareOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-edit-square', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiEditSquareOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiEditSquareOutlined;
+export default EditSquareOutlined;

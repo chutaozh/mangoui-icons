@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCheckOutlined: React.FC<BaseIconProps> = (props) => {
+const CheckOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-check', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCheckOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCheckOutlined;
+export default CheckOutlined;

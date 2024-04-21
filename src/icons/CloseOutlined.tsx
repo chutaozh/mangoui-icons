@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiCloseOutlined: React.FC<BaseIconProps> = (props) => {
+const CloseOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-close', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiCloseOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiCloseOutlined;
+export default CloseOutlined;

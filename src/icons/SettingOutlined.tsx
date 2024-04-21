@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiSettingOutlined: React.FC<BaseIconProps> = (props) => {
+const SettingOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-setting', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiSettingOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiSettingOutlined;
+export default SettingOutlined;

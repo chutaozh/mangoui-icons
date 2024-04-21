@@ -2,7 +2,7 @@ import * as React from 'react';
 import cn from 'classnames';
 import IconWrapper, { BaseIconProps, SVGProps } from './IconWrapper';
 
-const SdiLeftOutlined: React.FC<BaseIconProps> = (props) => {
+const LeftOutlined: React.FC<BaseIconProps> = (props) => {
     const classes = cn('micon-left', props.className);
 
     return (
@@ -14,4 +14,4 @@ const SdiLeftOutlined: React.FC<BaseIconProps> = (props) => {
     );
 };
 
-export default SdiLeftOutlined;
+export default LeftOutlined;
