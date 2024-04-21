@@ -54,10 +54,10 @@ function copyFiles(sourceDir, targetDir) {
   const cmd = args[0];
 
   const sourceRootDir = "src/icons";
-  const targetRootDir = "@sleek-design";
+  const targetRootDir = "@mango-ui";
 
   if (cmd === "rm") {
-    removeFiles("@sleek-design");
+    removeFiles("@mango-ui");
   }
 
   if (cmd === "cp") {
