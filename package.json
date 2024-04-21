@@ -1,12 +1,12 @@
 {
-  "name": "@sleek-design/icons",
-  "version": "1.0.1",
+  "name": "@mango-ui/icons",
+  "version": "1.0.0",
   "description": "Some common icons written with react.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chutao-zhang/sleek-design-icons.git"
+    "url": "https://github.com/chutao-zhang/mango-ui-icons.git"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve -c scripts/webpack.config.js --mode development",
@@ -14,13 +14,11 @@
     "rm": "node scripts/fs.config.js rm",
     "cp": "node scripts/fs.config.js cp",
     "tsc": "npm run rm && tsc --project tsconfig.build.json && npm run cp",
-    "pub": "cd @sleek-design/icons && npm publish --access public"
+    "pub": "cd @mango-ui/icons && npm publish --access public"
   },
   "keywords": [
-    "sleek",
-    "sleek-design",
+    "mango-ui",
     "react",
-    "icons",
     "icons"
   ],
   "author": "ChuTao Zhang",

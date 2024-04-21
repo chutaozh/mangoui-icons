@@ -1,18 +1,17 @@
 {
-    "compilerOptions": {
-      "declaration": true,
-      "outDir": "./@sleek-design/icons/lib",
-      "module": "CommonJS",
-      "jsx": "react",
-      "target": "ES2015",
-      "allowSyntheticDefaultImports": true,
-      "moduleResolution": "NodeNext",
-      "esModuleInterop": false,
-      "baseUrl": "./",
-    },
-    "include": [
-      "src/icons/**/*.ts",
-      "src/icons/**/*.tsx"
-    ],
-  }
-  
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./@mango-ui/icons/lib",
+    "module": "NodeNext",
+    "jsx": "react",
+    "target": "ES2015",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": false,
+    "baseUrl": "./",
+  },
+  "include": [
+    "src/icons/**/*.ts",
+    "src/icons/**/*.tsx"
+  ],
+}

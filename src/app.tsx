@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import { createPortal } from 'react-dom';
 import cn from 'classnames';
 import * as Icons from './icons';
 import styles from './app.module.less';
 import './global.less';
 
+let timer: any = null;
+
 const App = () => {
     const [keyword, setKeyword] = useState('');
     const [shadow, setShadow] = useState({ outlineListShadow: false, fillListShadow: false });
+    const [message, setMessage] = useState<{ show: boolean; content: any }>({ show: false, content: null });
 
     const handleScroll = (e: any) => {
         setShadow({
@@ -16,17 +20,37 @@ const App = () => {
         });
     };
 
+    const handleClick = (name: string) => {
+        const _name = `<${name} />`;
+        navigator.clipboard?.writeText(_name).then(res => {
+            clearTimeout(timer);
+            setMessage({
+                show: true,
+                content: (<>
+                    <Icons.CheckCircleFilled style={{ color: 'green', marginRight: 10, fontSize: 18 }} />
+                    <span>已复制：</span>
+                    <span style={{ fontSize: 13 }}>{_name}</span>
+                </>)
+            });
+            timer = setTimeout(() => {
+                setMessage({ show: false, content: null });
+            }, 2 * 1000);
+        });
+    };
+
     const filledIconList = Object.keys(Icons)
         .filter(name => name.endsWith('Filled'))
-        .map(name => ({ name, Icon: (Icons as any)[name] }));
+        .map(name => ({ name, Icon: (Icons as any)[name] }))
+        .sort((a, b) => a.name.localeCompare(b.name));
     const outlinedIconList = Object.keys(Icons)
         .filter(name => name.endsWith('Outlined'))
-        .map(name => ({ name, Icon: (Icons as any)[name] }));
+        .map(name => ({ name, Icon: (Icons as any)[name] }))
+        .sort((a, b) => a.name.localeCompare(b.name));
 
     return (
         <div className={styles["app"]}>
             <div className={styles["search-box"]}>
-                <Icons.SdiSearchOutlined />
+                <Icons.SearchOutlined />
                 <input value={keyword} onChange={e => setKeyword(e.target.value)} placeholder="输入关键字查找图标" />
             </div>
             <div className={styles["main"]} onScrollCapture={handleScroll}>
@@ -37,7 +61,11 @@ const App = () => {
                     </div>
                     <div className={styles["icon-list"]}>
                         {outlinedIconList.filter(({ name }) => name.toLowerCase().includes((keyword || '').toLowerCase())).map(({ name, Icon }) => (
-                            <div className={styles["icon-item"]} key={name}>
+                            <div
+                                key={name}
+                                className={styles["icon-item"]}
+                                onClick={() => handleClick(name)}
+                            >
                                 <div className={styles["icon"]}>
                                     <Icon />
                                 </div>
@@ -55,7 +83,11 @@ const App = () => {
                     </div>
                     <div className={styles["icon-list"]}>
                         {filledIconList.filter(({ name }) => name.toLowerCase().includes((keyword || '').toLowerCase())).map(({ name, Icon }) => (
-                            <div className={styles["icon-item"]} key={name}>
+                            <div
+                                key={name}
+                                className={styles["icon-item"]}
+                                onClick={() => handleClick(name)}
+                            >
                                 <div className={styles["icon"]}>
                                     <Icon />
                                 </div>
@@ -67,6 +99,9 @@ const App = () => {
                     </div>
                 </div>
             </div>
+            {createPortal((<div className={cn(styles["message"], { [styles["show"]]: message.show })}>
+                {message.content}
+            </div>), document.body)}
         </div>
     );
 };
