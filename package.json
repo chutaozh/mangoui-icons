@@ -1,12 +1,12 @@
 {
-  "name": "@mango-ui/icons",
+  "name": "@mangoui/icons",
   "version": "1.0.0",
   "description": "Some common icons written with react.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chutao-zhang/mango-ui-icons.git"
+    "url": "https://github.com/chutaozh/mangoui-icons.git"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve -c scripts/webpack.config.js --mode development",
@@ -14,10 +14,10 @@
     "rm": "node scripts/fs.config.js rm",
     "cp": "node scripts/fs.config.js cp",
     "tsc": "npm run rm && tsc --project tsconfig.build.json && npm run cp",
-    "pub": "cd @mango-ui/icons && npm publish --access public"
+    "pub": "cd @mangoui/icons && npm publish --access public"
   },
   "keywords": [
-    "mango-ui",
+    "mangoui",
     "react",
     "icons"
   ],
