@@ -1,22 +1,22 @@
-<a href="https://github.com/chutao-zhang/mango-ui-icons/tree/master#readme" target="_blank">Englist</a> | 中文
+<a href="https://github.com/chutaozh/mangoui-icons/tree/master#readme" target="_blank">Englist</a> | 中文
 
 <p>
-<img alt="npm" src="https://img.shields.io/npm/v/@mango-ui/icons?logo=npm&color=%234ac41c">
-<img alt="npm" src="https://img.shields.io/npm/dm/@mango-ui/icons?logo=npm&color=%234ac41c">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/chutao-zhang/mango-ui-icons">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/chutao-zhang/mango-ui-icons">
+<img alt="npm" src="https://img.shields.io/npm/v/@mangoui/icons?logo=npm&color=%234ac41c">
+<img alt="npm" src="https://img.shields.io/npm/dm/@mangoui/icons?logo=npm&color=%234ac41c">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/chutaozh/mangoui-icons">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/chutaozh/mangoui-icons">
 </p>
 
 ### 安装
 
 ```js
-npm install @mango-ui/icons
+npm install @mangoui/icons
 ```
 
 ### 使用
 
 ```js
-import { CloseOutlined } from "@mango-ui/icons";
+import { CloseOutlined } from "@mangoui/icons";
 
 function Index() {
   return (
@@ -29,7 +29,7 @@ function Index() {
 
 ### 图标 <span style="font-size:14px; font-weight:400; color:#808080">(176 个图标)</span>
 
-<img src="https://github.com/chutao-zhang/mango-ui-icons/blob/master/public/screenshot.png" alt="" />
+<img src="https://github.com/chutaozh/mangoui-icons/blob/master/public/screenshot.png" alt="" />
 
 - `CopyOutlined`
 - `OpenInNewOutlined`

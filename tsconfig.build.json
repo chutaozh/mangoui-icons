@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "outDir": "./@mango-ui/icons/lib",
+    "outDir": "./@mangoui/icons/lib",
     "module": "NodeNext",
     "jsx": "react",
     "target": "ES2015",
